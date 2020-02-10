@@ -1,0 +1,29 @@
+svg {
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+}
+
+#background {
+  fill: white;
+}
+
+.cell {
+  stroke-width: 1px;
+}
+
+.axis path,
+.axis line {
+  stroke: none;
+  fill: none;
+}
+
+.axis text {
+  fill: dimgrey;
+  font-size: 9px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 9px;
+  color: dimgrey;
+}
