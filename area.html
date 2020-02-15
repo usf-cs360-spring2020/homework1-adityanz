@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Area</title>
+
+    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- Load Font Awesome 5 (free) icons -->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+
+  <div id="navigation">
+  </div>
+  <script>
+  $(function(){
+    $("#navigation").load("navbar.html");
+  });
+  </script>
+
+  <section class="section">
+    <div class="container">
+      <!-- Begin page content -->
+      <div class="content">
+
+
+      </div>
+      <!-- End page content -->
+    </div>
+  </section>
+
+  <div id="footer">
+  </div>
+  <script>
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+  </script>
+
+  <!-- End mobile menu responsiveness -->
+  </body>
+
+</html>

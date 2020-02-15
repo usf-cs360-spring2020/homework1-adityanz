@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Data</title>
+
+    <!-- Load Bulma from CDN (consider saving it to repository instead) -->
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <!-- Load Font Awesome 5 (free) icons -->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+
+  <body>
+
+  <div id="navigation">
+  </div>
+  <script>
+  $(function(){
+    $("#navigation").load("navbar.html");
+  });
+  </script>
+
+  <section class="section">
+    <div class="container">
+      <!-- Begin page content -->
+      <div class="content">
+
+        <h2 id="data">Data Source</h2>
+
+        <!-- <p>Include some detailed information about the dataset here. You should <a href="#">add a link</a> to the original dataset. You might also want to quote the license:</p> -->
+
+             <p> This project is supposed to visualize certain relationships between airline data from the San Francisco International Airport           </p>
+              <p>Data acquired from <a href="https://data.sfgov.org/Transportation/Air-Traffic-Passenger-Statistics/rkru-6vcg">DataSF</a> on February 9, 2020.</p>
+
+        <p>In addition to including a link to the source and license, you should describe the data. You might want a list of some sort to enumerate the different types of columns:</p>
+
+        <ol>
+          <li><strong>Passenger Count:</strong> This would be the total count of passengers that are going through SFO based on a certain time period.</li>
+
+          <li><strong>Column Name:</strong> Give a description of the column, including its type and possible range of values.</li>
+
+          <li><strong>Column Name:</strong> Give a description of the column, including its type and possible range of values.</li>
+
+          <li><strong>Column Name:</strong> Give a description of the column, including its type and possible range of values.</li>
+        </ol>
+
+        <h3 id="wrangling">Wrangling</h3>
+
+        <p> The data had to be sorted and fitlered out and I ended up doing it based on the time periods, I filtereted out uncommon and unecessary data. </p>
+
+        <pre>
+You can even put code into these pre blocks.
+  It will preserve whitespace.
+    That is helpful for formatted code.
+        </pre>
+
+        <p>You can alternatively embed a Gist if you want. There is an "embed" button on <a href="https://gist.github.com/octocat/6cad326836d38bd3a7ae">the Gist page</a> and results in something like this:</p>
+
+        <script src="https://gist.github.com/octocat/6cad326836d38bd3a7ae.js"></script>
+      </div>
+      <!-- End page content -->
+    </div>
+  </section>
+
+  <div id="footer">
+  </div>
+  <script>
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+  </script>
+
+  <!-- End mobile menu responsiveness -->
+  </body>
+
+</html>
